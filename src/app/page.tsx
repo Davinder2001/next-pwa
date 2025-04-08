@@ -20,7 +20,7 @@ export default function HomePage() {
         <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-6">
           <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 border-l-4 border-indigo-400">
             <h3 className="text-lg font-semibold text-indigo-700 mb-2">📊 Stats Overview</h3>
-            <p className="text-sm text-gray-600">Check today's analytics and trends.</p>
+            <p className="text-sm text-gray-600">Check today&#39;s analytics and trends.</p>
           </div>
           <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition duration-300 border-l-4 border-pink-400">
             <h3 className="text-lg font-semibold text-pink-700 mb-2">🧾 Recent Invoices</h3>
@@ -61,5 +61,5 @@ export default function HomePage() {
         </button>
       </nav>
     </main>
-  )
+  );
 }
