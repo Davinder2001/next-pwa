@@ -12,11 +12,16 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="manifest" href="/manifest.json" />
-        <meta name="theme-color" content="#009693" />
-        <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
-      </Head>
+ <Head>
+  <meta name="theme-color" content="#009693" />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+
+  {/* iOS full-screen */}
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+</Head>
+
       <body className={inter.className}>{children}</body>
     </html>
   )
