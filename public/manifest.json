@@ -1,5 +1,5 @@
 {
-    "display": "standalone",
+    "display": "fullscreen",
     "start_url": "/",
     "name": "Your App Name",
     "short_name": "App",
